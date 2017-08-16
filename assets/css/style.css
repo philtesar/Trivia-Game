@@ -1,0 +1,36 @@
+body {
+    background: url(../images/Disney.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Saira Condensed', sans-serif;
+	color: #FFF;
+	font-size: 20px;
+
+}
+
+h1, h3, h4, h5, h6 {
+	font-family: 'Carter One', cursive;
+	color: #FFF;
+}
+
+p {
+	font-family: 'Saira Condensed', sans-serif;
+	color: #b03b29;
+	font-size: 20px;
+}
+
+div.panel-heading {
+	font-family: 'Saira Condensed', sans-serif;
+	color: #1b2e69;
+	font-size: 30px;
+	text-align: center;
+}
+
+div.panel-body {
+	font-family: 'Saira Condensed', sans-serif;
+	color: #b03b29;
+	font-size: 20px;
+	text-align: center;
+}

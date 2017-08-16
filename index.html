@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Walt Disney World Trivia</title>
+
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Carter+One|Saira+Condensed" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body>
+	
+	<div id="game">
+    
+    <div class="container">
+		
+		<header>
+			<h1><center>Walt Disney World Trivia</center></h1>
+			<h3><center>How well do you know the Happiest Place on Earth?</center></h3>
+			<hr>
+
+		</header>
+
+	    <div class="row">
+			<div class="col-xs-12 col-sm-5 col-md-3">
+	        	<div class="panel panel-default">
+					<div class="panel-heading">
+				    	<p class="panel-title"><center>Time Remaining</center></p>
+					</div>
+					<div class="panel-body">
+				    	<span id="timeRemaining"></span>
+				    	<button id="buttonStart" class="btn btn-primary">Start Quiz</button>
+				    	<button id="buttonStop" class="btn btn-primary">Stop Timer</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-7 col-md-9">
+	        	<div class="panel panel-default">
+					<div class="panel-heading">
+				    	<p class="panel-title"><center>Question # Display</center></p>
+					</div>
+					<div class="panel-body">
+				    	<span id="displayedQuestion"></span>
+				    	<hr>
+					    	<div class="row">
+					    		<div class="col-xs-12 col-sm-12 col-md-6">
+							    	<button type="answerButton" class="btn btn-default btn-lg btn-block"><span id="A1"></span></button>
+							    </div>
+
+							    <div class="col-xs-12 col-sm-12 col-md-6">
+							    	<button type="answerButton" class="btn btn-default btn-lg btn-block"><span id="A2"></span></button>
+							    </div>
+							</div>
+
+							<div class="row">
+					    		<div class="col-xs-12 col-sm-12 col-md-6">
+							    	<button type="answerButton" class="btn btn-default btn-lg btn-block"><span id="A3"></span></button>
+							    </div>
+
+							    <div class="col-xs-12 col-sm-12 col-md-6">
+							    	<button type="answerButton" class="btn btn-default btn-lg btn-block"><span id="A4"></span></button>
+							    </div>
+							</div><br>
+
+							    	<button type="button" class="btn btn-primary">Next Question</button>
+
+							    <div class="col-xs-12 col-sm-12 col-md-9">
+							    </div>
+							</div>
+					</div>
+				</div>
+	    	</div>
+		</div>
+
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
